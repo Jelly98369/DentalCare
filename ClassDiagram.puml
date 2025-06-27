@@ -1,0 +1,70 @@
+@startuml
+skinparam classAttributeIconSize 0
+skinparam dpi 150
+
+title DentalCare – Class Diagram
+
+package composite <<Composite Pattern>> {
+  abstract class Trattamento <<Component>>
+  class Corona <<Leaf>>
+  class Impianto <<Leaf>>
+  class ProtesiComposite <<Composite>>
+}
+
+package factory <<Factory Pattern>> {
+  class TrattamentoFactory <<Factory>>
+}
+
+package iterator <<Iterator Pattern>> {
+  class TrattamentoIterator <<Iterator>>
+}
+
+package builder <<Builder Pattern>> {
+  class OrdineBuilder <<Builder>>
+  class Ordine
+}
+
+package strategy <<Strategy Pattern>> {
+  interface CalcoloScontoStrategy <<Strategy>>
+  class ScontoFisso <<ConcreteStrategy>>
+  class NessunoSconto <<ConcreteStrategy>>
+}
+
+package observer <<Observer Pattern>> {
+  interface Observer
+  class PazienteNotifier <<Subject>>
+}
+
+package singleton <<Singleton Pattern>> {
+  class OrdineManager <<Singleton>>
+}
+
+package adapter <<Adapter Pattern>> {
+  class VecchioTrattamento
+  class TrattamentoAdapter <<Adapter>>
+}
+
+package exception <<Exception Shielding>> {
+  class ExceptionHandler
+}
+
+Trattamento <|-- Corona
+Trattamento <|-- Impianto
+Trattamento <|-- ProtesiComposite
+ProtesiComposite "1" *-- "0..*" Trattamento : contiene
+
+TrattamentoFactory --> Trattamento : crea
+
+OrdineBuilder --> Ordine : build
+Ordine --> CalcoloScontoStrategy
+CalcoloScontoStrategy <|.. ScontoFisso
+CalcoloScontoStrategy <|.. NessunoSconto
+
+PazienteNotifier --> Observer : notifica
+TrattamentoAdapter --> VecchioTrattamento : adatta
+TrattamentoAdapter ..|> Trattamento
+
+OrdineManager --> Ordine
+ExceptionHandler ..> Exception : gestisce
+
+@enduml

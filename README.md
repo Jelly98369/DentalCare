@@ -43,11 +43,20 @@ java -cp target/DentalCare-1.0-SNAPSHOT.jar main.MainApp
 mvn test
 ```
 
-## 📐 UML Diagrams
+## 📐 Documentazione UML
 
-Sono forniti due diagrammi:
-- `ArchitectureOverview.png`: schema delle interazioni tra i principali package.
-- `ClassDiagram.png`: diagramma delle classi (vedi file allegato).
+La progettazione è documentata mediante diagrammi **UML** generati con **PlantUML**.
+
+| File | Contenuto | Finalità didattica |
+|------|-----------|--------------------|
+| `ClassDiagram.png` | Diagramma delle classi: componenti principali, relazioni, stereotipi dei pattern. | Agevola il valutatore nella verifica della corretta applicazione dei pattern e nella lettura dell’architettura statica. |
+| `ClassDiagram.puml` | Sorgente PlantUML che produce l’immagine. | Offre tracciabilità, possibilità di rigenerare o estendere il diagramma senza software proprietari. |
+
+> **Rigenerare il diagramma**
+> 1. Aprire `ClassDiagram.puml` in IntelliJ IDEA con il plugin *PlantUML Integration*.
+> 2. Selezionare **Preview** (👁️) per il rendering.
+> 3. Esportare con **Save as → PNG** e sovrascrivere `ClassDiagram.png`.
+> 4. Committare entrambi i file per mantenere sincronizzati sorgente e immagine.
 
 ## 🚫 Limitazioni e Lavori Futuri
 

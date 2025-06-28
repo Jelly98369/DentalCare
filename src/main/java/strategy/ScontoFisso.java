@@ -1,3 +1,4 @@
+// Other implementation of my strategy wave
 package strategy;
 
 public class ScontoFisso implements CalcoloScontoStrategy {

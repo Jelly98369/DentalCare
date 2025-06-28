@@ -1,4 +1,4 @@
-// Ordine.java
+// Class for create, manage order, and order status
 package builder;
 
 import composite.Trattamento;

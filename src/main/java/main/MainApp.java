@@ -19,6 +19,7 @@ import java.util.*;
 
 public class MainApp {
     public static void main(String[] args) {
+        // Instance of scanner for read input, for observer and for Collection
         Scanner scanner = new Scanner(System.in);
         List<Trattamento> trattamentiScelti = new ArrayList<>();
         PazienteNotifier paziente = null;
@@ -26,12 +27,12 @@ public class MainApp {
         System.out.println("=== DentalCare Manager ===");
         boolean running = true;
 
-        // Composite Pattern
+        // Composite Pattern instance
         ProtesiComposite protesi = new ProtesiComposite("Protesi Composita");
         protesi.aggiungi(new Corona(120));
         protesi.aggiungi(new Impianto(250));
 
-        // Adapter Pattern
+        // Adapter Pattern instance
         VecchioTrattamento vecchio = new VecchioTrattamento("Trattamento laser vecchio", 99.99);
         Trattamento adattato = new TrattamentoAdapter(vecchio);
 
@@ -92,7 +93,7 @@ public class MainApp {
                         ordine.setStato("IN CORSO");
                         OrdineManager.getInstance().aggiungiOrdine(ordine);
 
-                        // Visualizzazione ordine e calcolo totale
+                        // Order visualization and total calculation of final price
                         System.out.println("\n--- Riepilogo Ordine ---");
                         double totale = 0.0;
                         for (Trattamento t : trattamentiScelti) {

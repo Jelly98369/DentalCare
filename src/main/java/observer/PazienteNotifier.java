@@ -1,3 +1,4 @@
+// Observer class for get status of an order
 package observer;
 
 public class PazienteNotifier implements Observer {

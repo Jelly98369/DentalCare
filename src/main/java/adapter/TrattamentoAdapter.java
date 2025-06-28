@@ -1,3 +1,4 @@
+// Adapeter for get an old object and adapt this as Trattamento
 package adapter;
 
 import composite.Trattamento;

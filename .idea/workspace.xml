@@ -5,11 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c8aecaf-6a7e-4261-869a-31292002132d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ClassDiagram.puml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/ArchitectureOverview_NEW.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/ClassDiagram_NEW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adapter/TrattamentoAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adapter/TrattamentoAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adapter/VecchioTrattamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adapter/VecchioTrattamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/builder/Ordine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builder/Ordine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/builder/OrdineBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builder/OrdineBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/composite/Corona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/composite/Corona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/composite/Impianto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/composite/Impianto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/composite/ProtesiComposite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/composite/ProtesiComposite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/composite/Trattamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/composite/Trattamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exception/ExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exception/ExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory/TrattamentoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/TrattamentoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iterator/TrattamentoIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/iterator/TrattamentoIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/observer/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/observer/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/observer/PazienteNotifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/observer/PazienteNotifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/singleton/OrdineManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/singleton/OrdineManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/CalcoloScontoStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/CalcoloScontoStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/NessunoSconto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/NessunoSconto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/ScontoFisso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/ScontoFisso.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +57,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jelen\Desktop\DentalCare" />
+    </key>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7c8aecaf-6a7e-4261-869a-31292002132d" name="Changes" comment="" />
@@ -60,6 +79,11 @@
           <url>file://$PROJECT_DIR$/target/generated-test-sources/test-annotations/test/adapter/TrattamentoAdapterTest.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/adapter/TrattamentoAdapter.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

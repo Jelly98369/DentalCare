@@ -1,4 +1,4 @@
-// CalcoloScontoStrategy.java
+// Interface og strategy
 package strategy;
 
 public interface CalcoloScontoStrategy {

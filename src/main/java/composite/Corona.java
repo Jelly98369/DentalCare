@@ -1,3 +1,4 @@
+//Leaf of composite class ProtesiComposite
 package composite;
 
 public class Corona implements Trattamento {

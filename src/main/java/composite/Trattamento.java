@@ -1,3 +1,5 @@
+// Interface of composite
+
 package composite;
 
 public interface Trattamento {

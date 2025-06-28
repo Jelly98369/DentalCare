@@ -1,3 +1,4 @@
+// My custom Iterator for List of Trattamenti
 package iterator;
 
 import composite.Trattamento;

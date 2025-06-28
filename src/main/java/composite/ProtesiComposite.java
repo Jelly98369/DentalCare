@@ -1,3 +1,4 @@
+// Class for implements composite pattern and generate composite objects using Leaf
 package composite;
 
 import java.util.ArrayList;

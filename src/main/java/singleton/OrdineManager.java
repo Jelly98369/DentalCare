@@ -1,3 +1,4 @@
+// Singleton that I use to have a unique instance for my order manager
 package singleton;
 
 import builder.Ordine;

@@ -1,3 +1,4 @@
+// My factory for generate Trattamento: corona or impianto
 package factory;
 
 import composite.Trattamento;

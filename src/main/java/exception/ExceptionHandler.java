@@ -1,3 +1,4 @@
+// Class for manage exception and log that using logger
 package exception;
 
 import java.util.logging.*;

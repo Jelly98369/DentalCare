@@ -1,3 +1,4 @@
+// Builder for order, can also add there a strategy
 package builder;
 
 import composite.Trattamento;

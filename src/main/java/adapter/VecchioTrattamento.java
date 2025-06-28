@@ -1,3 +1,5 @@
+// Model for implement adapter
+
 package adapter;
 
 public class VecchioTrattamento {
